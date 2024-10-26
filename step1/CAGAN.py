@@ -594,6 +594,7 @@ if __name__ == '__main__':
 
     #while epoch < niter: 
     while gen_iterations < iteration_num:
+        print(f"{gen_iterations}/{iteration_num} start")
         epoch, A = next(train_batch)   
         errDA  = netD_train([A])
         errDA_sum +=errDA[0]
