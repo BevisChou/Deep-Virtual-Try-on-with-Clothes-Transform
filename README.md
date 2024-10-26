@@ -9,6 +9,7 @@ Source code for paper "Deep Virtual Try-on with Clothes Transform"
 Install dependencies using pip.
 ```shell
 pip install -r requirements.txt
+pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
 
 ## Step1: CAGAN 
